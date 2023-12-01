@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    background-color:  #5bcf7a;
+    background-image: url('WhatsApp Image 2023-11-02 at 19.02.30_3bb52340.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    
+    backdrop-filter: blur(10px);
+   
+
+    
+}
+.container{
+   
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height:400px;
+    width:400px;
+    border-radius: 10px;
+    text-decoration: none;
+    transform: translateX(54%);
+    box-shadow: 10px 5px 26px black;
+   
+
+
+}
+.pullingo{
+    position:absolute;
+    bottom:610px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Facebook Sans', sans-serif;
+    color: #1877F2;
+}
+form input[type="text"]{
+    width:155%;
+    height: 34px;
+    transform: translateX(-20%);
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input[type="mail"]{
+    width:155%;
+    height: 34px;
+    margin-top: 10px;
+    transform: translateX(-20%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input[type="password"]{
+    width:155%;
+    height: 34px;
+    margin-top: 10px;
+    transform: translateX(-20%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    margin-top: 10px;
+    width: 105%;
+    height: 34px;
+    background-color: #56f078;
+    color: white;
+    font-weight:bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.forgot{
+    margin-top: 10px;
+}
+
+.container-two{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+/*
+.photos{
+    width:50px;
+    height: 30px;
+    margin: 10px;
+}
+*/
+/*
+.photo1, .photo2, .photo3, .photo4 {
+    width: 10px; 
+    height: 10px;
+}
+*/
+.photo1, .photo2, .photo3, .photo4 {
+    transform: translateY(200%);
+    width: 450px;
+    height: 450px;
+}
+.photos{
+    border: 5px soild #ccc;
+    border-radius: 5px;
+}
+
+.photo1 img{
+    position: absolute;
+    border: 5px soild #ccc;
+    border-radius: 5px;
+    bottom: 40px;
+    width: 400px; 
+    height: 400px;
+    transform: translateX(-47%);
+    box-shadow: 10px 5px 26px black;
+    object-fit: cover;
+    transition:box-shadow 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+}
+.photo2 img{
+    position: absolute;
+   bottom: 450px;
+   border: 5px soild #ccc;
+   border-radius: 5px;
+   transform: translateX(-180%);
+    width: 400px; 
+    height: 400px;
+    box-shadow: 10px 5px 26px black;
+    object-fit: cover;
+    transition:box-shadow 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+    
+}
+.photo3 img{
+    transform: translateX(-207%);
+    width: 400px; 
+    height: 400px;
+    padding-top: 10px;
+    border: 5px soild #ccc;
+    border-radius: 5px;
+    box-shadow: 10px 5px 26px black;
+    object-fit: cover;
+    transition:box-shadow 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+}
+.photo4 img{
+    transform: translateX(-23%);
+    width: 400px; 
+    height: 400px;
+    margin-top: 8px;
+    box-shadow: 10px 5px 26px black;
+    border: 5px soild #ccc;
+    border-radius: 5px;
+    object-fit: cover;
+    transition:box-shadow 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+
+
+
+}
+.photos{
+    width: 110px;
+    margin-right:0;
+}
+img:hover{
+
+box-shadow:10px 5px 26px white;
+}
+
+@media (max-width:390px) and (max-height:844px){
+    .container{
+        height: 240px;
+        width:90%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:390px) and (max-height:844px){
+    .container-two{
+        height: 440px;
+        width:30%;
+        flex-wrap: wrap;
+
+    }
+}
+
